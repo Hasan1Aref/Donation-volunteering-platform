@@ -1,0 +1,136 @@
+.HomeAdminContainer{
+    color:rgb(224, 176, 176);
+    /* background-color: darkcyan; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:6em
+}
+.b1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 100%;
+    padding:6em ;
+    background-color: rgb(72 4 54);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #a7a7a7;
+    /* box-shadow: 5px 5px 5px #d4d4d4; */
+
+}
+.sections{
+color:blanchedalmond
+}
+.sections:hover{
+  color:#e8ec00;
+
+}
+
+.b2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 100%;
+    padding:6em;
+    background-color: rgb(83, 83, 83);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #d4d4d4;
+
+}
+.b3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 100%;
+    padding:6em;
+    background-color: #045252;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #d4d4d4;
+
+}
+@media only screen and (max-width: 1196px) {
+  .HomeAdminContainer{
+      padding:4em;
+  }
+  .b1{
+    padding:5em ;
+  }
+  .b2{
+    padding:5em ;
+  }
+  .b3{
+    padding:5em ;
+  }
+  }
+  @media only screen and (max-width: 1030px) {
+    .HomeAdminContainer{
+        padding:3em;
+    }
+    .b1{
+        padding:4em ;
+      }
+      .b2{
+        padding:4em ;
+      }
+      .b3{
+        padding:4em ;
+      }
+}
+@media only screen and (max-width: 800px) {
+    .HomeAdminContainer{
+        padding:3em;
+    }
+    .b1{
+        padding:3em ;
+      }
+      .b2{
+        padding:3em ;
+      }
+      .b3{
+        padding:3em ;
+      }
+}
+@media only screen and (max-width: 700px) {
+    .HomeAdminContainer{
+        padding:4em;
+        flex-direction: column;
+    }
+    .b1{
+        padding:3em ;
+        margin-bottom:2em;
+      }
+      .b2{
+        padding:3em ;
+        margin-bottom:2em;
+      }
+      .b3{
+        padding:3em ;
+        margin-bottom:2em;
+      }
+}
+@media only screen and (max-width: 470px) {
+    .HomeAdminContainer{
+        padding:2em;
+        
+        flex-direction: column;
+    }
+    .b1{
+        padding:1em ;
+        margin-bottom:2em;
+      }
+      .b2{
+        padding:1em ;
+        margin-bottom:2em;
+      }
+      .b3{
+        padding:1em ;
+        margin-bottom:2em;
+      }
+}

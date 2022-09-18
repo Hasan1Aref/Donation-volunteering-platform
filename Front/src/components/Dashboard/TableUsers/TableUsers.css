@@ -1,0 +1,30 @@
+.Row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items:center;
+    justify-content:center;
+}
+.tableTitleUsers{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items:center;
+    justify-content:center;
+}
+#Userstitle{
+    padding-right: 23em;
+    color:#199467
+}
+#search{
+    border:rgb(149, 158, 149) solid 2px;
+    border-radius: 7px;
+}
+.crud{
+width: 100%;
+}
+.userInfo{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Kalam&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+} */
+
+/* body {
+    background-color: #F50057
+} */
+.donationContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ButtonsContainer{
+    padding-top: 1rem!important;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: -moz-fit-content;
+    width: 100%;
+    max-width: 850px;
+    margin: 20px auto;
+    height: 600px;
+    background-color: #FFF;
+    overflow: hidden;
+    box-shadow: 5px 25px 35px #3535356b;
+}
+
+.wrapper .bg-yellow {
+    /* background-color: #fdc91f; */
+    /* height: 100%; */
+    width: fit-content
+    /* padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 20px */
+}
+.wrapper .bg-yellow img{
+    width: 100%;
+    height: 100%;
+}
+.wrapper .bg-yellow .text-white {
+    font-size: 3rem
+}
+
+.wrapper .bg-yellow .cursive {
+    font-family: 'Kalam', cursive;
+    font-size: 1rem;
+    font-weight: 600
+}
+#donationImage{
+    width: 22em;
+    padding-top:7em;
+    padding-left:2em;
+}
+.controls{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:5px;
+    padding-right: 5px;
+}
+.wrapper .contact-form {
+    width: 30em;
+    
+    padding: 10px 40px 5px 40px;
+}
+
+.wrapper .contact-form .h3 {
+    padding-top: 15px;
+    font-weight: 700;
+    color:teal;
+}
+.form-group{
+    margin: 5px;
+}
+
+.wrapper .contact-form label {
+    font-size: 1rem;
+    color: teal;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+
+.wrapper .contact-form textarea {
+    height: 120px
+}
+
+.wrapper .contact-form .form-control {
+    background-color: #e7e7e7;
+    box-shadow: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: none;
+    border-top: 1px solid #bbb
+}
+
+.wrapper .contact-form .btn {
+    font-size: 1.2rem;
+    font-weight: 700
+}
+
+.wrapper .contact-form .btn.btn-default {
+    color: #F50057
+}
+
+.wrapper .contact-form .btn.btn-primary {
+    background: #F50057;
+    border: none;
+    padding: 8px 18px;
+    box-shadow: 0 8px 12px #3535356b
+}
+
+.wrapper .contact-form .btn.btn-primary:hover {
+    background-color: #f50056e5
+}
+
+.modal .modal-content .modal-header .fas {
+    color: #F50057
+}
+
+@media(max-width: 900.5px) {
+    .wrapper {
+        margin: 20px
+    }
+}
+
+@media(max-width: 575.5px) {
+    .wrapper .contact-form {
+        padding: 40px
+    }
+
+    .wrapper .bg-yellow {
+        padding-left: 30px
+    }
+}
+
+@media(max-width: 800px) {
+    .wrapper .bg-yellow {
+        display: none
+    }
+}
+
+@media(max-width: 350px) {
+    .wrapper {
+        height: 570px
+    }
+
+    .wrapper .contact-form {
+        padding: 20px
+    }
+}
+@media only screen and (max-width: 1000px) {
+.wrapper{
+    overflow: scroll;
+}
+.ButtonsContainer{
+    padding-bottom: 50px!important;
+}
+
+    }
+
+    @media only screen and (max-width: 600px) {
+        .wrapper {
+            visibility: none;
+        }
+        .wrapper .bg-yellow {
+            visibility: none;
+        }
+        .wrapper .bg-yellow img{
+            visibility: none;
+        }
+        .ButtonsContainer{
+            padding-top: 15px!important;
+        }
+        
+            }
